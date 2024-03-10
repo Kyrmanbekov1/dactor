@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_application_6/presentation/screens/auth/create_profile.dart';
 import 'package:flutter_application_6/presentation/theme/app_colors.dart';
 import 'package:flutter_application_6/presentation/theme/app_fonts.dart';
 import 'package:flutter_application_6/presentation/widgets/app_button.dart';
@@ -89,6 +90,7 @@ class _ActivationNumberScreenState extends State<ActivationNumberScreen> {
                   AppButton(onPressed: controller.text.length < 4? null :
                    (){
                     if(controller.text == widget.code.toString()){
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=> CreateProfile()));
                      errorText = null;
                      setState(() {  });
                     }else {

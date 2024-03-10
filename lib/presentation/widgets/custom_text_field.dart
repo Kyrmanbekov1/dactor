@@ -20,7 +20,7 @@ class CustomTextField extends StatelessWidget {
       keyboardType: TextInputType.phone,
       maxLength: 9,
       style: AppFonts.w700s17,
-      controller: TextEditingController(),
+      controller: controller,
       decoration: const InputDecoration(
         counterText: '',
         prefix: Text(

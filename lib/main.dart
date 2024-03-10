@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_6/presentation/screens/welcome_screen.dart';
+import 'package:flutter_application_6/presentation/screens/auth/welcome_screen.dart';
+import 'package:flutter_application_6/presentation/screens/splash_screen.dart';
 import 'package:flutter_application_6/presentation/theme/app_colors.dart';
 import 'package:flutter_application_6/presentation/widgets/shared_prefs_widget.dart';
 import 'package:flutter_application_6/presentation/widgets/text_field_unfocus.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
             fontFamily: 'sf pro'
           ),
           home: SharedPrefsWidget(
-            child: const WelcomeScreen(),
+            child: const SplashScreen(),
             ),
         ),
       ),

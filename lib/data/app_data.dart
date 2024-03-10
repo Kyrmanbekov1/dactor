@@ -1,5 +1,5 @@
 import 'package:flutter_application_6/data/models/info_widget.dart';
-import 'package:flutter_application_6/presentation/screens/welcome_screen.dart';
+import 'package:flutter_application_6/presentation/screens/auth/welcome_screen.dart';
 import 'package:flutter_application_6/presentation/widgets/resources/resources.dart';
 
 abstract class AppData {

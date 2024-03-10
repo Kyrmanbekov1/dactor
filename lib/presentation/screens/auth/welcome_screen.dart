@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_6/data/app_data.dart';
-import 'package:flutter_application_6/presentation/screens/login_screen.dart';
+import 'package:flutter_application_6/presentation/screens/auth/login_screen.dart';
 import 'package:flutter_application_6/presentation/theme/app_fonts.dart';
 import 'package:flutter_application_6/presentation/widgets/app_button.dart';
 import 'package:flutter_application_6/presentation/widgets/settings_button.dart';
